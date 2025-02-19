@@ -26,4 +26,5 @@ El usuario deberá agregar nombres mediante un campo de texto y un botón **"Adi
 - JavaScript
 
 ## **Autor**
-[<center><img src="https://avatars.githubusercontent.com/jbcodedev" width=115><br><sub>Jose B. (jbcodedev)</sub></center>](https://github.com/jbcodedev)
+| [<img src="https://avatars.githubusercontent.com/jbcodedev" width=115><br><sub>Jose B. (jbcodedev)</sub>](https://github.com/jbcodedev)|
+| :---: |

@@ -22,5 +22,16 @@ function agregarAmigos() {
     actualizarLista();
 }
 // 03 - Implementa una función para actualizar la lista de amigos
+function actualizarLista() {
+    let listaAmigosUI = document.getElementById('listaAmigos');
+    // Limpiar contenido actual de la lista
+    listaAmigosUI.innerHTML = "";
 
+    // Iterar sobre el arreglo con un ciclo for
+    for (let i = 0; i < amigos.length; i++) {
+        const li = document.createElement('li');
+        li.textContent = amigos[i];
+        listaAmigosUI.appendChild(li);
+    }
+}
 // 04 - Implementa una función para sortear los amigos
